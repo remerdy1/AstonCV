@@ -20,7 +20,7 @@
                 @endif
                 <div class="mb-4">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="name"> Name</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="name" name="name">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="name" name="name" value="{{old('name')}}">
                 </div>
                 
                 <!--Email Field -->
@@ -31,7 +31,7 @@
                 @endif
                 <div class="mb-4">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Email" name="email">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Email" name="email" value="{{old('email')}}">
                 </div>
                 
                 <!--Key Programming Field -->
@@ -42,7 +42,7 @@
                 @endif
                 <div class="mb-4">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="keyprogramming">Key Programming Languages</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="keyprogramming" type="keyprogramming" placeholder="Languages" name="keyprogramming">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="keyprogramming" type="keyprogramming" placeholder="Languages" name="keyprogramming" value="{{old('keyprogramming')}}">
                 </div>
                 
                 <!--Profile Field -->
@@ -53,7 +53,7 @@
                 @endif
                 <div class="mb-4">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="profile">Profile</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="profile" type="profile" placeholder="Profile" name="profile">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="profile" type="profile" placeholder="Profile" name="profile" value="{{old('profile')}}">
                 </div>
                 
                 <!--Education Field -->
@@ -64,7 +64,7 @@
                 @endif
                 <div class="mb-4">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="education">Education</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="education" type="education" placeholder="Education" name="education">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="education" type="education" placeholder="Education" name="education" value="{{old('education')}}">
                 </div>
                 
                 <!--URL Field -->
@@ -75,7 +75,7 @@
                 @endif
                 <div class="mb-4">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="URLlinks">URL Links</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="URLlinks" type="URLlinks" placeholder="URL" name="URLlinks">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="URLlinks" type="URLlinks" placeholder="URL" name="URLlinks" value="{{old('URLlinks')}}">
                 </div>
                 
                 <!--Password Field -->
