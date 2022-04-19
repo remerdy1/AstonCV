@@ -6,12 +6,6 @@
             <form action="{{route('signup')}}" method="POST" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
                 @csrf
 
-                @if ($errors->has('name'))
-                    <span>
-                        <strong style="color: red">{{ $errors->first('name') }}</strong>
-                    </span>
-                @endif
-
                 <!-- Name Field -->
                 @if ($errors->has('name'))
                     <span>
@@ -96,8 +90,8 @@
                 </div>
 
                 <!--Submit Button -->
-                <div class="flex items-center justify-between">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Sign-Up</button>
+                <div class="flex items-center justify-center">
+                    <button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Sign-Up</button>
                 </div>
             </form>
 
