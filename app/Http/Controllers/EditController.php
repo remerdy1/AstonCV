@@ -30,7 +30,7 @@ class EditController extends Controller
 
         $email = auth()->user()->email;
         $cv = Cv::where('email', $email);
-        $cv->update(['name'=>$request->name, 'keyprogramming'=>$request->keyprogramming, 'profile'=>$request->profile, 'URLlinks'=>$request->URLlinks]);
+        $cv->update(['name'=>$request->name, 'keyprogramming'=>$request->keyprogramming, 'education'=>$request->education,'profile'=>$request->profile, 'URLlinks'=>$request->URLlinks]);
         
         return redirect(route('index'));
     }
